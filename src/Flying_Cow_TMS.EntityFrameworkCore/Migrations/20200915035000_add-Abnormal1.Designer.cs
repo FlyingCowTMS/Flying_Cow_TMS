@@ -4,14 +4,16 @@ using Flying_Cow_TMS.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Flying_Cow_TMS.Migrations
 {
     [DbContext(typeof(Flying_Cow_TMSDbContext))]
-    partial class Flying_Cow_TMSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200915035000_add-Abnormal1")]
+    partial class addAbnormal1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1555,57 +1557,6 @@ namespace Flying_Cow_TMS.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Abnormal");
-                });
-
-            modelBuilder.Entity("Flying_Cow_TMS.Entities.Address", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreationTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("a_Id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("a_Site")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("a_Time")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ifid")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Address");
-                });
-
-            modelBuilder.Entity("Flying_Cow_TMS.Entities.Anomaly", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreationTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("aid")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ano_Id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ano_processing")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Anomaly");
                 });
 
             modelBuilder.Entity("Flying_Cow_TMS.MultiTenancy.Tenant", b =>

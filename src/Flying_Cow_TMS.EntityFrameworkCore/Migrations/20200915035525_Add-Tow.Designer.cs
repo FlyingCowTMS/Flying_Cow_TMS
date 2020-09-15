@@ -4,14 +4,16 @@ using Flying_Cow_TMS.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Flying_Cow_TMS.Migrations
 {
     [DbContext(typeof(Flying_Cow_TMSDbContext))]
-    partial class Flying_Cow_TMSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200915035525_Add-Tow")]
+    partial class AddTow
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
