@@ -1,0 +1,123 @@
+DEBUG 2020-09-15 11:07:32,320 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 11:07:34,094 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 11:07:34,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Web.Host.Startup.Flying_Cow_TMSWebHostModule, Flying_Cow_TMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Flying_Cow_TMSWebCoreModule, Flying_Cow_TMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Flying_Cow_TMSApplicationModule, Flying_Cow_TMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Flying_Cow_TMSCoreModule, Flying_Cow_TMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.EntityFrameworkCore.Flying_Cow_TMSEntityFrameworkModule, Flying_Cow_TMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:34,118 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 11:07:34,272 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:07:34,272 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:07:34,272 [1    ] o.Configuration.LanguageManagementConfig - Converted Flying_Cow_TMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:07:34,272 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:07:34,762 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Flying_Cow_TMS.EntityFrameworkCore.Flying_Cow_TMSDbContext, Flying_Cow_TMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:07:35,796 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 11:07:35,876 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 11:07:35,955 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 11:07:35,984 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Flying_Cow_TMS
+DEBUG 2020-09-15 11:07:36,021 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 11:07:36,223 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 11:07:36,371 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Flying_Cow_TMS.MultiTenancy.Tenant, Flying_Cow_TMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Flying_Cow_TMS.Authorization.Users.User, Flying_Cow_TMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 11:07:36,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 11:07:36,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 11:07:36,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 11:07:36,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Users.Dto.UserDto
+DEBUG 2020-09-15 11:07:36,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 11:07:36,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 11:07:36,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 11:07:36,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 11:07:36,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 11:09:08,142 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 11:09:08,232 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 11:09:08,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Web.Host.Startup.Flying_Cow_TMSWebHostModule, Flying_Cow_TMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,256 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Flying_Cow_TMSWebCoreModule, Flying_Cow_TMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Flying_Cow_TMSApplicationModule, Flying_Cow_TMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.Flying_Cow_TMSCoreModule, Flying_Cow_TMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Flying_Cow_TMS.EntityFrameworkCore.Flying_Cow_TMSEntityFrameworkModule, Flying_Cow_TMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,261 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,261 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,261 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:08,267 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 11:09:08,390 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:09:08,390 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:09:08,390 [1    ] o.Configuration.LanguageManagementConfig - Converted Flying_Cow_TMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:09:08,390 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 11:09:08,770 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Flying_Cow_TMS.EntityFrameworkCore.Flying_Cow_TMSDbContext, Flying_Cow_TMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 11:09:09,714 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 11:09:09,783 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 11:09:09,832 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 11:09:09,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Flying_Cow_TMS
+DEBUG 2020-09-15 11:09:09,899 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 11:09:10,094 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 11:09:10,202 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Flying_Cow_TMS.MultiTenancy.Tenant, Flying_Cow_TMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Flying_Cow_TMS.Authorization.Users.User, Flying_Cow_TMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 11:09:10,244 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 11:09:10,244 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 11:09:10,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 11:09:10,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Users.Dto.UserDto
+DEBUG 2020-09-15 11:09:10,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 11:09:10,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 11:09:10,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 11:09:10,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 11:09:10,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Flying_Cow_TMS.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 11:09:12,528 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 11:09:13,013 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\11371\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 11:09:13,098 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 11:09:13,312 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Flying_Cow_TMS.Web.Host.Controllers.HomeController.Index (Flying_Cow_TMS.Web.Host)'
+INFO  2020-09-15 11:09:16,909 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Flying_Cow_TMS.Web.Host.Controllers.HomeController (Flying_Cow_TMS.Web.Host).
+INFO  2020-09-15 11:09:17,843 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method Flying_Cow_TMS.Web.Host.Controllers.HomeController.Index (Flying_Cow_TMS.Web.Host) - Validation state: Valid
+INFO  2020-09-15 11:09:17,849 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method Flying_Cow_TMS.Web.Host.Controllers.HomeController.Index (Flying_Cow_TMS.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5881ms.
+INFO  2020-09-15 11:09:18,058 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 11:09:18,064 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Flying_Cow_TMS.Web.Host.Controllers.HomeController.Index (Flying_Cow_TMS.Web.Host) in 1150.8571ms
+INFO  2020-09-15 11:09:18,067 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Flying_Cow_TMS.Web.Host.Controllers.HomeController.Index (Flying_Cow_TMS.Web.Host)'
+INFO  2020-09-15 11:09:18,084 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-15 11:09:18,086 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4987.2295ms 302 
+INFO  2020-09-15 11:09:18,112 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.2262ms 301 
+INFO  2020-09-15 11:09:18,115 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 11:09:18,152 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.8189ms 200 text/html;charset=utf-8
+INFO  2020-09-15 11:09:18,172 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-15 11:09:18,174 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-15 11:09:18,195 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-15 11:09:18,197 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.7337ms 200 text/css
+INFO  2020-09-15 11:09:18,201 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-15 11:09:18,203 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.0815ms 200 application/javascript
+INFO  2020-09-15 11:09:18,204 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-15 11:09:18,213 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-15 11:09:18,215 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.1385ms 200 application/javascript
+INFO  2020-09-15 11:09:18,233 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 11:09:18,239 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\11371\Desktop\Flying_Cow_TMS\5.7.0\aspnet-core\src\Flying_Cow_TMS.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-15 11:09:18,241 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.0328ms 200 application/javascript
+INFO  2020-09-15 11:09:18,246 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 11:09:18,251 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\11371\Desktop\Flying_Cow_TMS\5.7.0\aspnet-core\src\Flying_Cow_TMS.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-15 11:09:18,253 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.6179ms 200 application/javascript
+INFO  2020-09-15 11:09:18,763 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 11:09:18,781 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Flying_Cow_TMS.Web.Host.Controllers.AntiForgeryController.SetCookie (Flying_Cow_TMS.Web.Host)'
+INFO  2020-09-15 11:09:18,808 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Flying_Cow_TMS.Web.Host.Controllers.AntiForgeryController (Flying_Cow_TMS.Web.Host).
+INFO  2020-09-15 11:09:18,852 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method Flying_Cow_TMS.Web.Host.Controllers.AntiForgeryController.SetCookie (Flying_Cow_TMS.Web.Host) - Validation state: Valid
+INFO  2020-09-15 11:09:18,869 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method Flying_Cow_TMS.Web.Host.Controllers.AntiForgeryController.SetCookie (Flying_Cow_TMS.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 11.3426ms.
+INFO  2020-09-15 11:09:18,897 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 11:09:18,949 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 11:09:19,040 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Flying_Cow_TMS.Web.Host.Controllers.AntiForgeryController.SetCookie (Flying_Cow_TMS.Web.Host) in 229.6481ms
+INFO  2020-09-15 11:09:19,042 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Flying_Cow_TMS.Web.Host.Controllers.AntiForgeryController.SetCookie (Flying_Cow_TMS.Web.Host)'
+INFO  2020-09-15 11:09:19,044 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 283.7307ms 200 application/json; charset=utf-8
+INFO  2020-09-15 11:09:19,088 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 138.8858ms 200 application/json;charset=utf-8
+INFO  2020-09-15 11:09:19,152 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-09-15 11:09:19,154 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-09-15 11:09:19,161 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.1292ms 404 
+INFO  2020-09-15 11:09:19,162 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.1261ms 404 
