@@ -1,5 +1,4 @@
 ﻿using Abp.Domain.Entities;
-using Abp.Domain.Entities.Auditing;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,21 +6,22 @@ using System.Text;
 namespace Flying_Cow_TMS.Entities
 {
     /// <summary>
-    /// 异常表
+    /// 司机表
     /// </summary>
-    public class Anomaly:Entity<int>
+    public class Driver : Entity<int>
     {
         /// <summary>
         /// 主键
         /// </summary>
-        public int ano_Id { get; set; }
+        public int d_Id { get; set; }
         /// <summary>
-        /// 回单表外键
+        /// 询价外键
         /// </summary>
-        public int aid { get; set; }
+        public int ifid { get; set; }
         /// <summary>
-        /// 解决方案
+        /// 报价外键
         /// </summary>
-        public string ano_processing { get; set; }
+        public int oid { get; set; }
+
     }
 }

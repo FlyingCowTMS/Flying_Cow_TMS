@@ -9,7 +9,7 @@ namespace Flying_Cow_TMS.Entities
     /// <summary>
     /// 回单表
     /// </summary>
-    public class Abnormal: Entity<int>, IHasCreationTime
+    public class Abnormal: Entity<int>
     {
         /// <summary>
         /// 主键
@@ -51,6 +51,5 @@ namespace Flying_Cow_TMS.Entities
         /// 订单外键
         /// </summary>
         public string ifid { get; set; }
-        public DateTime CreationTime { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

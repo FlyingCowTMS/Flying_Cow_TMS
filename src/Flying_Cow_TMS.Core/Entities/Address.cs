@@ -9,7 +9,7 @@ namespace Flying_Cow_TMS.Entities
     /// <summary>
     /// 地址表
     /// </summary>
-    public class Address:Entity<int>, IHasCreationTime
+    public class Address:Entity<int>
     {
         /// <summary>
         /// 主键
@@ -27,6 +27,5 @@ namespace Flying_Cow_TMS.Entities
         /// 询价单外键
         /// </summary>
         public int ifid { get; set; }
-        public DateTime CreationTime { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
